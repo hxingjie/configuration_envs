@@ -1,3 +1,4 @@
+```shell
 conda infeo -e // 查看所有环境
 conda create --prefix=C:\Application\anaconda3\envs\envs_name // 指定路径创建环境
 conda remove -n envs_name --all // 删除环境
@@ -21,7 +22,17 @@ conda install pyzmq
 conda install ipykernel 
 python -m iptykernel install --user --name envs_pytorch
 // 将环境导入jupyter notebook
+```
 
 vscode下载python、pylance扩展
 激活环境
 打开文件夹，新建.py，ctrl+shift+p查找python: select interpreter选择环境即可
+
+```python
+import torch
+print(torch.__version__)
+print(torch.version.cuda)
+print(torch.backends.cudnn.version())
+
+print(torch.rand(5,3))
+```
