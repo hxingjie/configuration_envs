@@ -52,7 +52,7 @@ x: tensor([[3.3000e-01, 7.9273e-01, 4.6684e-01],
 ```
 
 ## pycharm configuration
-<img src=".\conda.assets\image-20230724203402801.png" alt="image-20230724203402801" style="zoom: 67%;" />
+<img src=".\conda.assets\image-20230724203402801.png" alt="image-20230724203402801" style="zoom: 30%;" />
 
 定位到conda.bat文件后才可以找到环境
 
