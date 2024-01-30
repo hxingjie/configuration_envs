@@ -1,3 +1,4 @@
+## conda command
 ```shell
 conda info -e // 查看所有环境
 conda create --prefix=C:\Application\anaconda3\envs\envs_name // 指定路径创建环境
@@ -50,19 +51,19 @@ x: tensor([[3.3000e-01, 7.9273e-01, 4.6684e-01],
         [9.8886e-01, 2.7237e-01, 8.9327e-01]], device='cuda:0')
 ```
 
+## pycharm configuration
 <img src=".\conda.assets\image-20230724203402801.png" alt="image-20230724203402801" style="zoom: 67%;" />
 
 定位到conda.bat文件后才可以找到环境
 
-配置 pycocotools
+## some package install
+### 配置 pycocotools
 
 pip install pycocotools
 
 [windows下pycocotools的安装及避坑 - 飞桨AI Studio星河社区 (baidu.com)](https://aistudio.baidu.com/projectdetail/980509)
 
 [windows下安装pycocotools - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/130697744)
-
----
 
 ### labelImg的安装和使用
 
@@ -97,13 +98,15 @@ TypeError: arguments did not match any overloaded call:
 
 出现错误原因是3.10以上版本导致
 
----
+### d2l
 
 pip install [d2l](https://so.csdn.net/so/search?q=d2l&spm=1001.2101.3001.7020) ——> pip install [d2l](https://so.csdn.net/so/search?q=d2l&spm=1001.2101.3001.7020) pandas==1.5.3，最终解决成功install d2l ，似乎是因为pandas版本不兼容的问题
 
+### scikit-learn
+
 pip install scikit-learn
 
----
+### vscode configuration
 
 setting -> search "execute":
 
