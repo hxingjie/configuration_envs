@@ -1,17 +1,13 @@
 # Record
 
-配置socks5
+# 以下使用socks5代理
+git config --global http.proxy socks5://127.0.0.1:1086
+git config --global https.proxy socks5://127.0.0.1:1086
 
-git config --global http.proxy socks5 127.0.0.1:7890
-git config --global https.proxy socks5 127.0.0.1:7890
+# 以下使用http代理
+git config --global http.proxy http://127.0.0.1:1087
+git config --global https.proxy https://127.0.0.1:1087
 
-配置http
-
-git config --global http.proxy 127.0.0.1:7890
-git config --global https.proxy 127.0.0.1:7890
-
-git config --global --get http.proxy
-git config --global --get https.proxy
-
+# 取消代理
 git config --global --unset http.proxy
 git config --global --unset https.proxy
