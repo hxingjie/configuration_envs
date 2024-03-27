@@ -9,25 +9,14 @@ conda list
 conda install package_name
 conda uninstall package_name
 conda update package_name
-conda show package_name
+conda list package_name
 
 conda install python=3.10 // 安装python
 conda install pytorch torchtext torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia // 安装pytorch
 conda install jupyter notebook // 安装jypyter notebook
+conda install nb_conda_kernels
 
 conda config --set remote_read_timeout_secs 1000.0 // 设置安装时间上限
-
-// 解决jupyter notebook运行错误问题
-conda uninstall pyzmq
-conda install pyzmq
-
-// 提示缺少sqlite3所需要的dll文件
-// https://www.sqlite.org/download.html 下载对应版本后放在C:\Application\anaconda3\envs\envs_name\DLLs 文件夹下
-
-// 将环境导入jupyter notebook
-conda install ipykernel
-python -m iptykernel install --user --name envs_pytorch
-
 ```
 ```python
 // 验证pytorch
