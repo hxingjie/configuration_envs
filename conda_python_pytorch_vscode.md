@@ -9,6 +9,7 @@ conda list
 conda install package_name
 conda uninstall package_name
 conda update package_name
+conda show package_name
 
 conda install python=3.10 // 安装python
 conda install pytorch torchtext torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia // 安装pytorch
