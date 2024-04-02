@@ -1,13 +1,18 @@
 # Record
 
-# 以下使用socks5代理
+## 以下使用socks5代理
 git config --global http.proxy socks5://127.0.0.1:1086
 git config --global https.proxy socks5://127.0.0.1:1086
 
-# 以下使用http代理
+## 以下使用http代理
 git config --global http.proxy http://127.0.0.1:1087
 git config --global https.proxy https://127.0.0.1:1087
 
-# 取消代理
+## 取消代理
 git config --global --unset http.proxy
 git config --global --unset https.proxy
+
+## pip 代理
+在用户变量里面新建一个变量
+变量名可以直接照抄我的“http_PROXY”，或者自定义（但要确保最后6个字符一定是“_PROXY”，例如“my_PROXY”）
+变量值由刚才查询到的地址和端口组成，具体格式为“http://地址:端口号”
