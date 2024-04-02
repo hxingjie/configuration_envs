@@ -36,6 +36,12 @@ x: tensor([[3.3000e-01, 7.9273e-01, 4.6684e-01],
         [9.8886e-01, 2.7237e-01, 8.9327e-01]], device='cuda:0')
 ```
 
+## pip command
+```shell
+pip library_name --update
+
+```
+
 ## pycharm configuration
 <img src=".\conda.assets\image-20230724203402801.png" alt="image-20230724203402801" style="zoom: 30%;" />
 
