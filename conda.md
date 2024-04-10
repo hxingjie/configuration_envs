@@ -2,6 +2,7 @@
 ```shell
 conda info -e // 查看所有环境
 conda create --prefix=C:\Application\anaconda3\envs\envs_name // 指定路径创建环境
+conda rename -n env-oldname env-newname
 conda remove -n envs_name --all // 删除环境
 activate envs_name // 激活环境
 
