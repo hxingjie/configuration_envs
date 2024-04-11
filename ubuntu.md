@@ -3,9 +3,9 @@
 ## route
 make boot
 
-sudo apt-get update
-sudo apt-get install tar
-sudo apt-get install vim
+sudo apt update
+sudo apt install tar
+sudo apt install vim
 
 solve wireless
 1. download https://www.intel.cn/content/www/cn/zh/support/articles/000005511/wireless.html
@@ -19,8 +19,9 @@ sudo apt install gdb
 sudo apt install git
 
 pip library_name --update
+apt install git
 
-install git lfs
+install git0-lfs.gz
 tar -xvf *.gz
 bash install.sh
 
@@ -31,7 +32,6 @@ nvidia-smi
 
 conda install -c nvidia cuda-compiler  # cuda-compiler
 nvcc -- version
-
 
 ## linux commands
 apt update
@@ -50,7 +50,7 @@ shutdown -r now
 
 ifconfig
 
-sudo apt install ./*.deb
+sudo apt install ./*.deb  # local install .deb
 
 vim *
 mkdir *
@@ -58,14 +58,17 @@ mv * path
 rm filename
 rm -r dirname
 
-sudo adduser username
-
-
 ## conda command
+install anaconda for root:
 install Anaconda3-2024.02-1-Linux-x86_64.sh
 sudo bash Anaconda.sh
 set pash: /home/anaconda3
 let normal user can use: hxj@ubuntu-hxj:~$ /home/anaconda3/bin/conda init bash
+
+install miniconda for normal user:
+bash Miniconda3-latest-Linux-x86_64.sh
+auto conda init
+source ~/.bashrc
 
 conda --version
 conda info
